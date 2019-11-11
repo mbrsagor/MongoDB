@@ -1,0 +1,16 @@
+MongoDB basic command link
+=================================
+clear: Ctrl+L
+List of database: show dbs
+Check current database: db
+List of table: show collections
+Create Database: use db_name 
+Create table: db.createCollection('table_name')
+Delete/Drop database: db.dropDatabase()
+Insert in a database : db.table_name.insert({'dict/object'})
+Insert list of dict db.table_name.insertMany([{'dict/object'}])
+Query data: db.table_name.find()
+Query data in nice alignment: db.table_name.find().pretty()
+Filter data: db.table_name.find({field_name: value})
+Sort data: db.table_name.find.sort({field_name: `value` like id, or value})
+How many data in a table: db.table_name.find().count()
