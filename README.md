@@ -49,3 +49,12 @@
 
 ##### Remove/Delete data into all collection.
 ```db.post.remove()```
+
+##### How to use limit function?
+```db.post.find().limit(3)```
+
+##### Limit with pretty.
+```db.post.find().limit(3).pretty()```
+
+##### Filter by title using limit
+```db.post.find({}, {title:1, _id:0}).limit(6).pretty()```
