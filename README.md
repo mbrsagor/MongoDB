@@ -1,5 +1,8 @@
 # MongoDB DB Documentations 
 
+### What is MongoDB?
+MongoDB is a leading open-source N0SQL database, document-oriented database program that is written in C++. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License.
+
 > clear console/terminal: For Mac user command+l and window ctrl+l
 
 ##### How to show list of database?
