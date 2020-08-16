@@ -29,6 +29,12 @@
 ##### Filter data.
 ```db.table_name.find({field_name: value})```
 
+##### Filter one.
+```db.post.findOne()```
+
+##### Filter one spesific.
+```db.post.findOne({user_id:3})```
+
 ##### Sort data.
 ```db.table_name.find.sort({field_name: `value` like id, or value})```
 
