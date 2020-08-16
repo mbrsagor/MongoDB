@@ -43,3 +43,9 @@
 
 ##### Update data into collection.
 ```db.post.update({ title: "I love javascript and React.JS" }, { $set: { title: "I love to javascript."}})```
+
+##### Remove/Delete data into a collection.
+```db.post.remove({'title': 'I love to javascript.'})```
+
+##### Remove/Delete data into all collection.
+```db.post.remove()```
