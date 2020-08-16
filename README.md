@@ -58,3 +58,6 @@
 
 ##### Filter by title using limit
 ```db.post.find({}, {title:1, _id:0}).limit(6).pretty()```
+
+##### Backup database.
+```mongodump --collection collection_name --db db_name```
