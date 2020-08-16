@@ -40,3 +40,6 @@
 
 ##### How count data in a table?
 ```db.table_name.find().count()```
+
+##### Update data into collection.
+```db.post.update({ title: "I love javascript and React.JS" }, { $set: { title: "I love to javascript."}})```
