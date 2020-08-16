@@ -23,7 +23,7 @@
 ##### Query data.
 ```db.table_name.find()```
 
-##### uery data in nice alignment.
+##### Query data in nice alignment.
 ```db.table_name.find().pretty()```
 
 ##### Filter data.
